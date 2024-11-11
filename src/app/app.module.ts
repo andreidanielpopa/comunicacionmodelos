@@ -10,7 +10,6 @@ import { HijoCocheComponent } from './components/hijo-coche/hijo-coche.component
 import { PadreCocheComponent } from './components/padre-coche/padre-coche.component';
 import { PadreDeportesComponent } from './components/padre-deportes/padre-deportes.component';
 import { HijoDeporteComponent } from './components/hijo-deporte/hijo-deporte.component';
-import { PersonasComponent } from './components/personas/personas.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { PersonasComponent } from './components/personas/personas.component';
     PadreCocheComponent,
     PadreDeportesComponent,
     HijoDeporteComponent,
-    PersonasComponent
   ],
   imports: [
     BrowserModule,
